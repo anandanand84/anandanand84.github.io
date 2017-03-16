@@ -1,0 +1,23 @@
+{
+  "name": "technicalindicators.github.io",
+  "version": "1.0.0",
+  "description": "Technical indicator playground for realtimestockscreener.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandanand84/technicalindicators.github.io.git"
+  },
+  "author": "Anand Aravindan <anand.anand84@gmail.com> (traderslab.in)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandanand84/technicalindicators.github.io/issues"
+  },
+  "homepage": "https://github.com/anandanand84/technicalindicators.github.io#readme",
+  "dependencies": {
+    "monaco-editor": "^0.8.3",
+    "technicalindicators": "^0.2.23"
+  }
+}
