@@ -43,7 +43,7 @@ console.log(result)
             })
     });
 	var executeCode = function() {
-		var fn = eval('(function() { this.editor.getValue(); })');
+		var fn = eval('(function() {'+editor.getValue()+'})');
 		console.log(fn());
 	}
 </script>
