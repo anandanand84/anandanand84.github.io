@@ -7,9 +7,9 @@
 <body>
 
 <div id="container" style="width:800px;height:600px;border:1px solid grey"></div>
-
-<script src="node_modules/monaco-editor/min/vs/loader.js"></script>
+<input type=button on-click="executeCode"></input>
 <script src="node_modules/technicalindicators/index.js"></script>
+<script src="node_modules/monaco-editor/min/vs/loader.js"></script>
 <script>
     var editor;
     require.config({ paths: { 'vs': 'node_modules/monaco-editor/min/vs' }});
@@ -42,6 +42,10 @@ console.log(result)
                 });
             })
     });
+	var executeCode = function() {
+		var fn = eval('(function() { this.editor.getValue(); })');
+		console.log(fn());
+	}
 </script>
 </body>
 </html>
