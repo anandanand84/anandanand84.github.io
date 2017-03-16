@@ -1,6 +1,6 @@
 {
   "name": "technicalindicators.github.io",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Technical indicator playground for realtimestockscreener.",
   "main": "index.js",
   "scripts": {
